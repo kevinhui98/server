@@ -34,21 +34,21 @@ Home Page View
   - [ ] gpa - decimal between 0.0 and 4.0, allow null/empty
  - [x] Student may be associated with at most one campus
  - [x] Campus may be associated with many students
-###API/Server-Side Routing (Express, Sequelize) – back-end application
+### API/Server-Side Routing (Express, Sequelize) – back-end application
 - [ ] Write a route to serve up all students
 - [ ] Write a route to serve up all campuses
-###API/Server-Side Routing (Express, Sequelize) – back-end application
+### API/Server-Side Routing (Express, Sequelize) – back-end application
 - [ ] Write a route to serve up a single campus (based on the campus id), including that campus's students
 - [ ] Write a route to serve up a single student (based on the student id), including that student's campus
-##Adding a Campus and Adding a Student
-###API/Server-Side Routing (Express, Sequelize) – back-end application
+## Adding a Campus and Adding a Student
+### API/Server-Side Routing (Express, Sequelize) – back-end application
 - [ ] Write a route to add a new campus
 - [x] Write a route to add a new student
-##Editing a Campus and Editing a Student 
-###API/Server-Side Routing (Express, Sequelize) – back-end application
+## Editing a Campus and Editing a Student 
+### API/Server-Side Routing (Express, Sequelize) – back-end application
 - [ ] Write a route to edit a campus (based on the campus id)
 - [ ] Write a route to edit a student (based on the student id)
-##Deleting a Campus and Deleting a Student
-###API/Server-Side Routing (Express, Sequelize) – back-end application
+## Deleting a Campus and Deleting a Student
+### API/Server-Side Routing (Express, Sequelize) – back-end application
 - [ ] Write a route to delete a campus (based on the campus id)
 - [x] Write a route to delete a student (based on the student id)
