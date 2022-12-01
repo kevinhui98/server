@@ -11,11 +11,24 @@ const Student = db.define("student", {
     type: Sequelize.STRING,
     allowNull: false
   },
-
   lastname: {
     type: Sequelize.STRING,
     allowNull: false
+  },
+  email: {
+    type: Sequelize.STRING,
+    allowNull: false
+  },
+  gpas: {
+    type: Sequelize.FLOAT,
+    allowNull: true
+  },
+  imageUrl: {
+    type: Sequelize.STRING,
+    defaultValue: 'https://www.gravatar.com/avatar/00000000000000000000000000000000?d=mp&f=y',
+    allowNull: true
   }
+
 });
 
 // Export the student model
