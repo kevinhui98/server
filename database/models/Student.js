@@ -19,7 +19,7 @@ const Student = db.define("student", {
     type: Sequelize.STRING,
     allowNull: false
   },
-  gpas: {
+  gpa: {
     type: Sequelize.FLOAT,
     allowNull: true
   },
