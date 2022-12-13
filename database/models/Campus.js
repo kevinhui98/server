@@ -20,6 +20,12 @@ const Campus = db.define("campus", {
 
   description: {
     type: Sequelize.STRING,
+    allowNull: true
+  },
+  imageUrl: {
+    type: Sequelize.STRING,
+    defaultValue: 'https://www.gravatar.com/avatar/00000000000000000000000000000000?d=mp&f=y',
+    allowNull: true
   }
 });
 
