@@ -1,11 +1,15 @@
 {
-  "name": "starter-server",
+  "name": "server",
   "version": "1.0.0",
+  "homepage": "https://kevinhui98.github.io/server/",
   "description": "backend for crud app",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "dev": "nodemon app.js"
+    "dev": "nodemon app.js",
+    "predeploy": "npm run build",
+    "build": "node build",
+    "deploy": "gh-pages -d build"
   },
   "author": "kevin",
   "license": "MIT",
@@ -17,6 +21,7 @@
     "sequelize": "^6.3.5"
   },
   "devDependencies": {
+    "gh-pages": "^4.0.0",
     "nodemon": "^2.0.6"
   }
 }
